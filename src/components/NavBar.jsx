@@ -1,3 +1,4 @@
+import logo from "../../assets/logo.png";
 import { NavLink } from "react-router-dom";
 import styles from "./NavBar.module.css";
 
@@ -6,7 +7,7 @@ const NavBar = () => {
     <nav className={styles.nav_container}>
       <NavLink to="/"  className={styles.nav_container_img}>
          
-      <img className={styles.nav_img} src="src\assets\logo.png" alt="Logo" /> 
+      <img className={styles.nav_img} src={logo} alt="Logo" /> 
       </NavLink>
       <ul className={styles.nav_unorderedlist}>
         <li className={styles.nav_list}>
