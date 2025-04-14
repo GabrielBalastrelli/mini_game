@@ -1,0 +1,19 @@
+p, h1{
+    color:#fff;
+}
+
+.container_about {
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 2rem;
+    color: #fff;
+    line-height: 2.5;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.4rem;
+  }
+  
+  .container_title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
